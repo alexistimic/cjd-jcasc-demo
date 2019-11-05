@@ -18,5 +18,5 @@ COPY plugins.txt $REF/plugins.txt
 RUN bash /usr/local/bin/install-plugins.sh < $REF/plugins.txt
 
 # Apply JCasC
-COPY jenkins.yaml /cfg/jenkins.yaml
-ENV CASC_JENKINS_CONFIG /cfg/jenkins.yaml
+COPY scripts/* /cfg/
+ENV CASC_JENKINS_CONFIG /cfg/

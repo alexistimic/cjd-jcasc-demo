@@ -9,3 +9,15 @@ ec2:1.44.1
 jira:3.0.7
 # Transitive dependency
 script-security:1.58
+# JX Specific
+embeddable-build-status:2.0.2
+pipeline-github:2.5
+pipeline-utility-steps:2.3.1
+timestamper:1.10
+workflow-basic-steps:2.18
+cucumber-reports:4.10.0
+github-oauth:0.33
+
+# In testing
+cloudbees-devoptics-enabler:0.4
+nexus-jenkins-plugin:3.8.20191024-124504.15c0353

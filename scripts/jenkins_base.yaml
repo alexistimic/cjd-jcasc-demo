@@ -34,13 +34,6 @@ jenkins:
   remotingSecurity:
     enabled: true
   scmCheckoutRetryCount: 5
-  securityRealm:
-    local:
-      allowsSignup: false
-      enableCaptcha: false
-      users:
-      - id: "admin"
-        password: "admin"
   slaveAgentPort: 50000
   systemMessage: "<h1><a href='https://www.cloudbees.com/products/cloudbees-jenkins-distribution'>CloudBees Jenkins Distribution</a> with <a href='https://jenkins.io/projects/jcasc/'>Configuration-as-Code</a></h1><br>Technical preview"
   updateCenter:
